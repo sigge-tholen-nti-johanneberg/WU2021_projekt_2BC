@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-areas: 
+    'he he'
+    'ma ma'
+    'a1 a2'
+    'fo fo'
+    ;
+
+}
+
+header {
+    grid-area: he;
+}
+
+main {
+    grid-area: ma;
+}
+
+.article1 {
+    grid-area: a1;
+}
+
+.article2 {
+    grid-area: a2;
+}
+
+footer {
+    grid-area: fo;
+}
