@@ -10,25 +10,43 @@ body {
     'a1 a2'
     'fo fo'
     ;
-
+    grid-template-columns: 50vw;
+    grid-template-rows: 15vh 50vh 30vh 15vh;
 }
 
 header {
     grid-area: he;
+    border-bottom: solid rgba(0,0,0,0.5);
+    height: 15vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 main {
     grid-area: ma;
+
 }
 
 .article1 {
     grid-area: a1;
+    background-color: rgb(255, 181, 197);
 }
 
 .article2 {
     grid-area: a2;
+    background-color: rgb(255, 132, 158)
 }
 
 footer {
     grid-area: fo;
+    background-color: rgb(255, 57, 99);
+}
+
+nav {
+    border: solid  rgba(0,0,0,0.5);
+    width: 60vw;
+    height: 20%;
+    top: 10vh;
+    position: relative;
 }
